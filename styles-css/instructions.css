@@ -1,0 +1,10 @@
+.instructions,
+.example {
+  float: left;
+  width: 50%;
+  box-sizing: border-box;
+  padding: 1%;
+}
+.instructions img {
+  width: 32%;
+}

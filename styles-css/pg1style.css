@@ -1,0 +1,184 @@
+body { 
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px
+   }
+
+.container1 {
+    background-color: #FFFFFF;
+
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.container2 {
+    background-image: linear-gradient(rgb(43, 43, 43), rgb(175, 175, 175));
+
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: inline-flex;
+    flex-flow: row wrap;
+    width: 100%;
+}
+
+.container3 {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.container4 {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: inline-flex;
+    flex-direction: column;
+ }
+
+.container-left {
+    display: block;
+}
+
+.container-right {
+    display: block;
+}
+
+.white {
+    color: #FFFFFF
+}
+
+.flex-item {
+    justify-content: space-between;
+  }
+
+.item2 {
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.left {
+    padding-left: 100px;
+    padding-right: 15px;
+}
+
+.left-image {
+    padding-left: 150px;
+    padding-right: 15px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.head {
+    padding-top: 50px;
+}
+ 
+.beams {
+    padding-top: 10px;
+    padding-left: 100px;
+    padding-right: 15px;
+}
+
+.right {
+    padding-right: 100px;
+    padding-left: 15px;
+}
+
+body {
+    font-family: "Arial";
+}
+
+p {
+    padding: 0px;
+    margin: 0px;
+}
+
+h2 {
+    padding: 0px;
+    margin: 0px;
+    text-align: left;
+}
+
+.lower {
+    padding-top: 100px;
+}
+
+.lower2 {
+    padding-top: 50px;
+}
+
+.bottom {
+    padding-bottom: 200px;
+}
+
+.top {
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+.beam-image {
+    margin-bottom: 0;
+}
+
+@media screen and (min-width: 950px){
+    .container3 {
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .container1, .container4 {
+        flex-direction: row-reverse;
+        width: 100%
+    }
+
+    .left-image{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .beam-text {
+        padding-left: 100px;
+    }
+
+    .left-image {
+        padding-left: 100px;
+    }
+
+    .beam-image {
+        padding-right: 100px;
+    }
+
+    .space {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .head {
+        padding-top: 45px;
+    }
+
+    .lower {
+        padding-top: 75px;
+    }
+
+    .lower2 {
+        padding-top: 125px;
+    }
+
+    .beams {
+        padding-top: 50px;
+        padding-left: 100px;
+        padding-right: 15px;
+    }

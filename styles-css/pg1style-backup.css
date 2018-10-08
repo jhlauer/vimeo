@@ -1,0 +1,146 @@
+.container1 {
+    background-color: #FFFFFF;
+
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: inline-flex;
+    /* flex-flow: wrap-reverse; */
+    
+    border: 3px solid green;
+}
+
+.container2 {
+    background-image: linear-gradient(rgb(43, 43, 43), rgb(175, 175, 175));
+
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: inline-flex;
+    flex-flow: row wrap;
+    
+    border: 5px solid yellow;
+}
+
+.container3 {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: inline-flex;
+    /* flex-flow: row wrap; */
+    
+    border: 3px solid blue;
+}
+
+.container4 {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: inline-flex;
+    /* flex-flow: wrap-reverse; */
+
+    border: 3px dashed green;
+}
+
+.container-left {
+    display: block;
+    border: 1px dashed magenta;
+}
+
+.container-right {
+    display: block;
+    border: 1px dashed red;
+}
+
+.white {
+    color: #FFFFFF
+}
+
+.flex-item {
+    justify-content: space-between;
+    /* padding: 10px; */
+  }
+
+.item2 {
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.left {
+    padding-left: 100px;
+    padding-right: 15px;
+}
+
+.right {
+    padding-right: 100px;
+    padding-left: 15px;
+}
+
+.space {
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+body {
+    font-family: "Arial";
+}
+
+p {
+    padding: 0px;
+    margin: 0px;
+}
+
+h2 {
+    padding: 0px;
+    margin: 0px;
+    text-align: left;
+}
+
+.lower {
+    padding-top: 100px;
+}
+
+.bottom {
+    padding-bottom: 200px;
+}
+
+.top {
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+/* carousel */
+
+html, body, #container, .carousel {
+	height:80%;
+	margin: 0;
+    width: 100%;
+}
+
+.image-slide {
+	height: 70%;
+	width: 0%;
+	transition: background-image .3s ease-in-out;
+}
+
+.slide-arrow {
+	color: #14B6D4;
+	cursor: pointer;
+	font-size: 2rem;
+	position: fixed;
+	top: 50%;
+}
+
+.slide-arrow.right {
+	right: 1rem;
+}
+
+.slide-arrow.left {
+	left: 1rem;
+}
