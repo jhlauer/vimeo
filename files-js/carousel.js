@@ -13,7 +13,7 @@ class SimpleSlider extends React.Component {
     return (
       <Slider {...settings}>
         <div>
-          <img>food6.png</img>
+          <h3>1</h3>
         </div>
         <div>
           <h3>2</h3>
